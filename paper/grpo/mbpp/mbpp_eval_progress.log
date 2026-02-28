@@ -1,0 +1,90 @@
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=500 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.json
+[eval][test] batch 1/16 completed=32/500 ks=[1, 3, 5, 10] dt=16.0s avg=16.0s ETA=3m59s
+[eval][test] batch 2/16 completed=64/500 ks=[1, 3, 5, 10] dt=2.0s avg=9.0s ETA=2m6s
+[eval][test] batch 3/16 completed=96/500 ks=[1, 3, 5, 10] dt=0.0s avg=6.0s ETA=1m18s
+[eval][test] batch 4/16 completed=128/500 ks=[1, 3, 5, 10] dt=7.1s avg=6.3s ETA=1m15s
+[eval][test] batch 5/16 completed=160/500 ks=[1, 3, 5, 10] dt=0.0s avg=5.0s ETA=55s
+[eval][test] batch 6/16 completed=192/500 ks=[1, 3, 5, 10] dt=0.0s avg=4.2s ETA=42s
+[eval][test] batch 7/16 completed=224/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.6s ETA=32s
+[eval][test] batch 8/16 completed=256/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.1s ETA=25s
+[eval][test] batch 9/16 completed=288/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.8s ETA=19s
+[eval][test] batch 10/16 completed=320/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.5s ETA=15s
+[eval][test] batch 11/16 completed=352/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.3s ETA=11s
+[eval][test] batch 12/16 completed=384/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.1s ETA=8s
+[eval][test] batch 13/16 completed=416/500 ks=[1, 3, 5, 10] dt=0.0s avg=1.9s ETA=6s
+[eval][test] batch 14/16 completed=448/500 ks=[1, 3, 5, 10] dt=0.0s avg=1.8s ETA=4s
+[eval][test] batch 15/16 completed=480/500 ks=[1, 3, 5, 10] dt=0.0s avg=1.7s ETA=2s
+[eval][test] batch 16/16 completed=500/500 ks=[1, 3, 5, 10] dt=0.0s avg=1.6s ETA=0s
+[eval][test] done in 26.43s (compute=26.42s, aggregate=0.00s) pass@k={1: 0.5192000000000003, 3: 0.617133333333334, 5: 0.6498412698412699, 10: 0.684}
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=500 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.json
+[eval][test] batch 1/16 completed=32/500 ks=[1, 3, 5, 10] dt=36.0s avg=36.0s ETA=9m0s
+[eval][test] batch 2/16 completed=64/500 ks=[1, 3, 5, 10] dt=1.7s avg=18.9s ETA=4m24s
+[eval][test] batch 3/16 completed=96/500 ks=[1, 3, 5, 10] dt=0.0s avg=12.6s ETA=2m44s
+[eval][test] batch 4/16 completed=128/500 ks=[1, 3, 5, 10] dt=7.6s avg=11.3s ETA=2m16s
+[eval][test] batch 5/16 completed=160/500 ks=[1, 3, 5, 10] dt=0.0s avg=9.1s ETA=1m40s
+[eval][test] batch 6/16 completed=192/500 ks=[1, 3, 5, 10] dt=0.0s avg=7.6s ETA=1m16s
+[eval][test] batch 7/16 completed=224/500 ks=[1, 3, 5, 10] dt=0.0s avg=6.5s ETA=58s
+[eval][test] batch 8/16 completed=256/500 ks=[1, 3, 5, 10] dt=0.0s avg=5.7s ETA=45s
+[eval][test] batch 9/16 completed=288/500 ks=[1, 3, 5, 10] dt=0.0s avg=5.0s ETA=35s
+[eval][test] batch 10/16 completed=320/500 ks=[1, 3, 5, 10] dt=0.0s avg=4.5s ETA=27s
+[eval][test] batch 11/16 completed=352/500 ks=[1, 3, 5, 10] dt=0.0s avg=4.1s ETA=21s
+[eval][test] batch 12/16 completed=384/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.8s ETA=15s
+[eval][test] batch 13/16 completed=416/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.5s ETA=10s
+[eval][test] batch 14/16 completed=448/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.2s ETA=6s
+[eval][test] batch 15/16 completed=480/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.0s ETA=3s
+[eval][test] batch 16/16 completed=500/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.8s ETA=0s
+[eval][test] done in 46.42s (compute=46.40s, aggregate=0.00s) pass@k={1: 0.5192000000000003, 3: 0.617133333333334, 5: 0.6498412698412699, 10: 0.684}
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=500 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.json
+[eval][test] batch 1/16 completed=32/500 ks=[1, 3, 5, 10] dt=18.4s avg=18.4s ETA=4m36s
+[eval][test] batch 2/16 completed=64/500 ks=[1, 3, 5, 10] dt=1.9s avg=10.1s ETA=2m22s
+[eval][test] batch 3/16 completed=96/500 ks=[1, 3, 5, 10] dt=0.0s avg=6.7s ETA=1m28s
+[eval][test] batch 4/16 completed=128/500 ks=[1, 3, 5, 10] dt=7.3s avg=6.9s ETA=1m23s
+[eval][test] batch 5/16 completed=160/500 ks=[1, 3, 5, 10] dt=0.0s avg=5.5s ETA=1m1s
+[eval][test] batch 6/16 completed=192/500 ks=[1, 3, 5, 10] dt=0.0s avg=4.6s ETA=46s
+[eval][test] batch 7/16 completed=224/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.9s ETA=35s
+[eval][test] batch 8/16 completed=256/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.4s ETA=28s
+[eval][test] batch 9/16 completed=288/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.1s ETA=21s
+[eval][test] batch 10/16 completed=320/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.8s ETA=17s
+[eval][test] batch 11/16 completed=352/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.5s ETA=13s
+[eval][test] batch 12/16 completed=384/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.3s ETA=9s
+[eval][test] batch 13/16 completed=416/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.1s ETA=6s
+[eval][test] batch 14/16 completed=448/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.0s ETA=4s
+[eval][test] batch 15/16 completed=480/500 ks=[1, 3, 5, 10] dt=0.0s avg=1.8s ETA=2s
+[eval][test] batch 16/16 completed=500/500 ks=[1, 3, 5, 10] dt=0.0s avg=1.7s ETA=0s
+[eval][test] done in 28.71s (compute=28.69s, aggregate=0.00s) pass@k={1: 0.5192000000000003, 3: 0.617133333333334, 5: 0.6498412698412699, 10: 0.684}
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=500 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.json
+[eval][test] batch 1/16 completed=32/500 ks=[1, 3, 5, 10] dt=27.0s avg=27.0s ETA=6m45s
+[eval][test] batch 2/16 completed=64/500 ks=[1, 3, 5, 10] dt=0.0s avg=13.5s ETA=3m9s
+[eval][test] batch 3/16 completed=96/500 ks=[1, 3, 5, 10] dt=0.0s avg=9.0s ETA=1m57s
+[eval][test] batch 4/16 completed=128/500 ks=[1, 3, 5, 10] dt=10.3s avg=9.3s ETA=1m52s
+[eval][test] batch 5/16 completed=160/500 ks=[1, 3, 5, 10] dt=0.0s avg=7.5s ETA=1m22s
+[eval][test] batch 6/16 completed=192/500 ks=[1, 3, 5, 10] dt=0.0s avg=6.2s ETA=1m2s
+[eval][test] batch 7/16 completed=224/500 ks=[1, 3, 5, 10] dt=0.0s avg=5.3s ETA=48s
+[eval][test] batch 8/16 completed=256/500 ks=[1, 3, 5, 10] dt=0.0s avg=4.7s ETA=37s
+[eval][test] batch 9/16 completed=288/500 ks=[1, 3, 5, 10] dt=0.0s avg=4.1s ETA=29s
+[eval][test] batch 10/16 completed=320/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.7s ETA=22s
+[eval][test] batch 11/16 completed=352/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.4s ETA=17s
+[eval][test] batch 12/16 completed=384/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.1s ETA=12s
+[eval][test] batch 13/16 completed=416/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.9s ETA=9s
+[eval][test] batch 14/16 completed=448/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.7s ETA=5s
+[eval][test] batch 15/16 completed=480/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.5s ETA=2s
+[eval][test] batch 16/16 completed=500/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.3s ETA=0s
+[eval][test] done in 38.56s (compute=38.54s, aggregate=0.00s) pass@k={1: 0.5230000000000004, 3: 0.6183000000000005, 5: 0.6455634920634922, 10: 0.668}
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=500 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/mbpp_eval_progress.json
+[eval][test] batch 1/16 completed=32/500 ks=[1, 3, 5, 10] dt=20.1s avg=20.1s ETA=5m2s
+[eval][test] batch 2/16 completed=64/500 ks=[1, 3, 5, 10] dt=1.8s avg=10.9s ETA=2m33s
+[eval][test] batch 3/16 completed=96/500 ks=[1, 3, 5, 10] dt=0.0s avg=7.3s ETA=1m35s
+[eval][test] batch 4/16 completed=128/500 ks=[1, 3, 5, 10] dt=7.0s avg=7.2s ETA=1m27s
+[eval][test] batch 5/16 completed=160/500 ks=[1, 3, 5, 10] dt=0.0s avg=5.8s ETA=1m4s
+[eval][test] batch 6/16 completed=192/500 ks=[1, 3, 5, 10] dt=0.0s avg=4.8s ETA=48s
+[eval][test] batch 7/16 completed=224/500 ks=[1, 3, 5, 10] dt=0.0s avg=4.1s ETA=37s
+[eval][test] batch 8/16 completed=256/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.6s ETA=29s
+[eval][test] batch 9/16 completed=288/500 ks=[1, 3, 5, 10] dt=0.0s avg=3.2s ETA=22s
+[eval][test] batch 10/16 completed=320/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.9s ETA=17s
+[eval][test] batch 11/16 completed=352/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.6s ETA=13s
+[eval][test] batch 12/16 completed=384/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.4s ETA=10s
+[eval][test] batch 13/16 completed=416/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.2s ETA=7s
+[eval][test] batch 14/16 completed=448/500 ks=[1, 3, 5, 10] dt=0.0s avg=2.1s ETA=4s
+[eval][test] batch 15/16 completed=480/500 ks=[1, 3, 5, 10] dt=0.0s avg=1.9s ETA=2s
+[eval][test] batch 16/16 completed=500/500 ks=[1, 3, 5, 10] dt=0.0s avg=1.8s ETA=0s
+[eval][test] done in 30.17s (compute=30.16s, aggregate=0.00s) pass@k={1: 0.5192000000000003, 3: 0.617133333333334, 5: 0.6498412698412699, 10: 0.684}

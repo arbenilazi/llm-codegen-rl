@@ -1,0 +1,55 @@
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=266 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.json
+[eval][test] batch 1/9 completed=32/266 ks=[1, 3, 5, 10] dt=20.0s avg=20.0s ETA=2m40s
+[eval][test] batch 2/9 completed=64/266 ks=[1, 3, 5, 10] dt=0.1s avg=10.0s ETA=1m10s
+[eval][test] batch 3/9 completed=96/266 ks=[1, 3, 5, 10] dt=2.0s avg=7.3s ETA=44s
+[eval][test] batch 4/9 completed=128/266 ks=[1, 3, 5, 10] dt=0.0s avg=5.5s ETA=27s
+[eval][test] batch 5/9 completed=160/266 ks=[1, 3, 5, 10] dt=0.0s avg=4.4s ETA=18s
+[eval][test] batch 6/9 completed=192/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.7s ETA=11s
+[eval][test] batch 7/9 completed=224/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.1s ETA=6s
+[eval][test] batch 8/9 completed=256/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.7s ETA=3s
+[eval][test] batch 9/9 completed=266/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.4s ETA=0s
+[eval][test] done in 23.70s (compute=23.70s, aggregate=0.00s) pass@k={1: 0.17218045112781957, 3: 0.18358395989974938, 5: 0.18419560806778854, 10: 0.18421052631578946}
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=266 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.json
+[eval][test] batch 1/9 completed=32/266 ks=[1, 3, 5, 10] dt=13.8s avg=13.8s ETA=1m50s
+[eval][test] batch 2/9 completed=64/266 ks=[1, 3, 5, 10] dt=0.1s avg=6.9s ETA=48s
+[eval][test] batch 3/9 completed=96/266 ks=[1, 3, 5, 10] dt=1.9s avg=5.3s ETA=32s
+[eval][test] batch 4/9 completed=128/266 ks=[1, 3, 5, 10] dt=0.0s avg=4.0s ETA=20s
+[eval][test] batch 5/9 completed=160/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.2s ETA=13s
+[eval][test] batch 6/9 completed=192/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.6s ETA=8s
+[eval][test] batch 7/9 completed=224/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.3s ETA=5s
+[eval][test] batch 8/9 completed=256/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.0s ETA=2s
+[eval][test] batch 9/9 completed=266/266 ks=[1, 3, 5, 10] dt=0.0s avg=1.8s ETA=0s
+[eval][test] done in 16.91s (compute=16.91s, aggregate=0.00s) pass@k={1: 0.17218045112781957, 3: 0.18358395989974938, 5: 0.18419560806778854, 10: 0.18421052631578946}
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=266 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.json
+[eval][test] batch 1/9 completed=32/266 ks=[1, 3, 5, 10] dt=13.5s avg=13.5s ETA=1m48s
+[eval][test] batch 2/9 completed=64/266 ks=[1, 3, 5, 10] dt=0.0s avg=6.8s ETA=47s
+[eval][test] batch 3/9 completed=96/266 ks=[1, 3, 5, 10] dt=2.1s avg=5.2s ETA=31s
+[eval][test] batch 4/9 completed=128/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.9s ETA=20s
+[eval][test] batch 5/9 completed=160/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.1s ETA=13s
+[eval][test] batch 6/9 completed=192/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.6s ETA=8s
+[eval][test] batch 7/9 completed=224/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.2s ETA=4s
+[eval][test] batch 8/9 completed=256/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.0s ETA=2s
+[eval][test] batch 9/9 completed=266/266 ks=[1, 3, 5, 10] dt=0.0s avg=1.7s ETA=0s
+[eval][test] done in 16.72s (compute=16.71s, aggregate=0.00s) pass@k={1: 0.17218045112781957, 3: 0.18358395989974938, 5: 0.18419560806778854, 10: 0.18421052631578946}
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=266 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.json
+[eval][test] batch 1/9 completed=32/266 ks=[1, 3, 5, 10] dt=13.7s avg=13.7s ETA=1m49s
+[eval][test] batch 2/9 completed=64/266 ks=[1, 3, 5, 10] dt=0.0s avg=6.8s ETA=48s
+[eval][test] batch 3/9 completed=96/266 ks=[1, 3, 5, 10] dt=1.9s avg=5.2s ETA=31s
+[eval][test] batch 4/9 completed=128/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.9s ETA=20s
+[eval][test] batch 5/9 completed=160/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.1s ETA=13s
+[eval][test] batch 6/9 completed=192/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.6s ETA=8s
+[eval][test] batch 7/9 completed=224/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.2s ETA=4s
+[eval][test] batch 8/9 completed=256/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.0s ETA=2s
+[eval][test] batch 9/9 completed=266/266 ks=[1, 3, 5, 10] dt=0.0s avg=1.7s ETA=0s
+[eval][test] done in 16.76s (compute=16.76s, aggregate=0.00s) pass@k={1: 0.17218045112781957, 3: 0.18358395989974938, 5: 0.18419560806778854, 10: 0.18421052631578946}
+[eval][test] start mode=parallel ks=[1, 3, 5, 10] n_test=266 num_procs=16 batch_size=32 log=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.log json=/storage/homefs/ai24v071/llm-codegen-rl/results/reports/taco_eval_progress.json
+[eval][test] batch 1/9 completed=32/266 ks=[1, 3, 5, 10] dt=22.9s avg=22.9s ETA=3m3s
+[eval][test] batch 2/9 completed=64/266 ks=[1, 3, 5, 10] dt=0.2s avg=11.6s ETA=1m21s
+[eval][test] batch 3/9 completed=96/266 ks=[1, 3, 5, 10] dt=2.0s avg=8.4s ETA=50s
+[eval][test] batch 4/9 completed=128/266 ks=[1, 3, 5, 10] dt=0.0s avg=6.3s ETA=31s
+[eval][test] batch 5/9 completed=160/266 ks=[1, 3, 5, 10] dt=0.0s avg=5.0s ETA=20s
+[eval][test] batch 6/9 completed=192/266 ks=[1, 3, 5, 10] dt=0.0s avg=4.2s ETA=13s
+[eval][test] batch 7/9 completed=224/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.6s ETA=7s
+[eval][test] batch 8/9 completed=256/266 ks=[1, 3, 5, 10] dt=0.0s avg=3.1s ETA=3s
+[eval][test] batch 9/9 completed=266/266 ks=[1, 3, 5, 10] dt=0.0s avg=2.8s ETA=0s
+[eval][test] done in 26.16s (compute=26.16s, aggregate=0.00s) pass@k={1: 0.17218045112781957, 3: 0.18358395989974938, 5: 0.18419560806778854, 10: 0.18421052631578946}
