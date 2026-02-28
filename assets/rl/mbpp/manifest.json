@@ -1,0 +1,30 @@
+{
+  "dataset": "mbpp",
+  "dataset_path": "/storage/homefs/ai24v071/bootstrapper/assets/datasets/mbpp",
+  "n_best": 3,
+  "max_pairs": 20,
+  "pairs_per_winner": 2,
+  "max_fails_per_task": 5,
+  "within_pass_pairs_per_winner": 1,
+  "fails_per_passer": 3,
+  "kept_total": 1123,
+  "items_with_pass": 248,
+  "total_passing_candidates": 1801,
+  "strict_per_candidate_used": false,
+  "eval_pass@k": {
+    "1": 0.4815508,
+    "3": 0.58411319,
+    "5": 0.61803964,
+    "10": 0.6631016
+  },
+  "kept_items_with_pass": 248,
+  "kept_total_passing_candidates": 1801,
+  "total_candidates": 3740,
+  "eval_source": "analytic_from_pass_masks",
+  "ks": [
+    1,
+    3,
+    5,
+    10
+  ]
+}

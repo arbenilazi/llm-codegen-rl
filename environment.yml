@@ -1,0 +1,27 @@
+name: bootstrapper
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - git
+  - cmake
+  - make
+  - gcc_linux-64
+  - gxx_linux-64
+  - pip:
+      - numpy
+      - pyarrow
+      - pandas
+      - tqdm
+      - datasets>=2.20
+      - evaluate>=0.4.2
+      - transformers>=4.43
+      - accelerate>=0.34
+      - peft>=0.11.1
+      - trl>=0.9.6
+      - codebleu
+      - huggingface_hub
+      - tokenizers
+      - orjson
+      - python-dotenv

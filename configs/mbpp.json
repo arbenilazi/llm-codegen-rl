@@ -1,0 +1,94 @@
+{
+    "experiment_name": "mbpp",
+    "seed": 42,
+    "dataset": {
+        "name": "mbpp",
+        "hf_id": "google-research-datasets/mbpp",
+        "output_dir": "assets/datasets/mbpp",
+        "split_ratio": 0.9,
+        "split_seed": 42
+    },
+    "generation": {
+        "model_name": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "num_candidates": 10,
+        "batch_size": 32,
+        "temperature": 0.9,
+        "top_p": 0.95,
+        "max_tokens": 512,
+        "stop": "<END>",
+        "dtype": "auto"
+    },
+    "evaluation": {
+        "ks": [
+            1,
+            3,
+            5,
+            10
+        ],
+        "allow_code_eval": true,
+        "num_procs": 16,
+        "batch_size": 32
+    },
+    "metrics": {
+        "compute_loc": true,
+        "compute_tokens": true,
+        "compute_cyclomatic_complexity": true,
+        "compute_nesting_depth": true,
+        "compute_ast_hash": true
+    },
+    "rl_build": {
+        "out_dir": "assets/rl/mbpp",
+        "n_best": 3,
+        "max_pairs": 20,
+        "pairs_per_winner": 2,
+        "within_pass_pairs_per_winner": 1,
+        "fails_per_passer": 3
+    },
+    "training": {
+        "rl_method": "dpo",
+        "use_lora": true,
+        "output_dir": "results/dpo_mbpp",
+        "epochs": 2,
+        "batch_size": 4,
+        "lr": 2e-5,
+        "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+        ],
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "logging_steps": 5,
+        "save_steps": 20,
+        "eval_steps": 20
+    },
+    "online_grpo": {
+        "output_dir": "results/online_grpo_mbpp",
+        "use_lora": true,
+        "epochs": 2,
+        "lr": 3e-5,
+        "batch_size": 1,
+        "gradient_accumulation_steps": 8,
+        "num_generations": 10,
+        "max_prompt_length": 2048,
+        "max_completion_length": 512,
+        "exec_timeout": 8.0,
+        "save_steps": 50,
+        "logging_steps": 10,
+        "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+        ],
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05
+    },
+    "reports": {
+        "dir": "results/reports",
+        "write_markdown": true
+    }
+}

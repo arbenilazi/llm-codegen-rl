@@ -1,0 +1,26 @@
+# local secrets
+.env
+
+#datasets
+assets/datasets
+
+# slurm runtime artifacts
+slurms/
+
+# Ignore all .out files
+*.out
+
+# Allow specific prefixes
+!taco_verified-*.out
+!mbpp-*.out
+
+# experiment logs
+wandb/
+
+# experiment outputs (temporary/intermediate)
+results/
+
+# caches
+__pycache__/
+.cache/
+.huggingface/
